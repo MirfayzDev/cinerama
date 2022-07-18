@@ -1,0 +1,50 @@
+.topPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.title {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pagination {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.pagination a {
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: .5rem 1rem;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #2D2C32;
+    color: var(--main-text-color);
+}
+
+.paginationDisabled {
+    color: #2D2C32;
+}
+
+.cardsWrapper {
+    display: flex;
+    box-sizing: content-box;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.cardsWrapper li {
+    width: 19%;
+    margin-top: 2rem;
+}

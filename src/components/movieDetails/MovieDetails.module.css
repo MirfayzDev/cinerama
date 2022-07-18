@@ -1,0 +1,73 @@
+.wrapper {
+    display: flex;
+    gap: 2.5rem;
+    margin: 2rem 0;
+}
+
+.poster {
+    width: 20rem;
+    object-fit: cover;
+    border-radius: .4rem;
+    box-shadow: 0 0.7rem 0.7rem rgba(0, 0, 0, .2);;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2.5rem 0;
+}
+
+.title {
+    color: var(--main-text-color);
+    font-size: 2.6rem;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.movieRating {
+    display: flex;
+    gap: 2rem;
+}
+
+.rating {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.rating span {
+    font-size: 1.6rem;
+}
+
+.overview {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+}
+
+.releasedYear{
+    font-size: 1.6rem;
+}
+
+@media (min-width: 22.5em) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .poster {
+        width: 25rem;
+    }
+}
+
+@media (min-width: 62em) {
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .poster {
+        width: 20rem;
+    }
+}

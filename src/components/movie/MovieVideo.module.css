@@ -1,0 +1,17 @@
+.movie {
+    margin-top: 6.4rem;
+    width: 100%;
+    height: 89vh;
+}
+
+@media (min-width: 22.5em) {
+    .movie {
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 62em) {
+    .movie {
+        margin-top: 7.4rem;
+    }
+}

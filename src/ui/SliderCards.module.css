@@ -1,0 +1,52 @@
+.movieSlider {
+    min-height: 30rem;
+}
+
+.topPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.title {
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
+.sliderNav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.swiperButtonPrev, .swiperButtonNext {
+    position: relative;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    outline: none;
+    background-color: var(--hover-text-color);
+    border: none;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+.swiperButtonPrev svg, .swiperButtonNext svg {
+    position: absolute;
+    width: 1rem;
+    height: 1.2rem;
+    transform: translate(-35%, -50%);
+}
+
+.swiperButtonPrev {
+    transform: rotate(180deg);
+}
+
+.slider {
+    padding: 1.6rem 0;
+}
+
+.slider li {
+    list-style-type: none;
+}
